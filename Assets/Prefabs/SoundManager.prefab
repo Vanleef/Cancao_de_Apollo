@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5773921709980590059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5773921709980590057}
+  - component: {fileID: 5773921709980590056}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5773921709980590057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5773921709980590059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 867.5774, y: 522.65686, z: -15.725402}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5773921709980590056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5773921709980590059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a33dfc385cbad74f932928c078711f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24300002, guid: 39280d645f6c1c940b75f817242d49f1, type: 2}
+  sounds:
+  - name: Menu
+    clip: {fileID: 8300000, guid: aee210ca991c6264cb61fa5c5df1145f, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Do
+    clip: {fileID: 8300000, guid: 590d059de466ae04bbbc2bb9853ae5d6, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Re
+    clip: {fileID: 8300000, guid: b1866f243d17386478335468e30d0fb5, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Mi
+    clip: {fileID: 8300000, guid: 9e682a8a7404e9741a91dcfddfb97893, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Fa
+    clip: {fileID: 8300000, guid: 635ceb3178541624b9a6d172bad59124, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Sol
+    clip: {fileID: 8300000, guid: 81c14d5a9a56e2f4c924c8c3935885d4, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: La
+    clip: {fileID: 8300000, guid: e3cf85af46e86b54f8d99cca4e5cf8a2, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Si
+    clip: {fileID: 8300000, guid: 8cbf7aadf3edd174591b8f7e2ad01a59, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: e72c1938acbc7924cbf7744299e52150, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Lose
+    clip: {fileID: 8300000, guid: d15831874af9087418bcef2cd796e06e, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: wrong
+    clip: {fileID: 8300000, guid: 4006bdd287faa0d4097e0e61e6fa9b9e, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 0
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: button
+    clip: {fileID: 8300000, guid: 8b315157d1d793848968efa27f8cb1db, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 0
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Fase1
+    clip: {fileID: 8300000, guid: 0803a6b5ba67fcc4391d5820b50f946a, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Fase2
+    clip: {fileID: 8300000, guid: 505f274bcc48dff44b1b2ce3004bfd6b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Fase3
+    clip: {fileID: 8300000, guid: db5c5a1761292bc47a7e287be928dd76, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Fase4
+    clip: {fileID: 8300000, guid: d744d3bf3f959184bbd2cf34f3bcb4fa, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Fase5
+    clip: {fileID: 8300000, guid: 0f1df5782d13b8e4c92e6963d5c90f19, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Fase6
+    clip: {fileID: 8300000, guid: 7a58489061cc1fd4e9e3964031ed619b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Fase7
+    clip: {fileID: 8300000, guid: 9716c5e7c94e2a044a91d6f63aa9ce0b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Final1
+    clip: {fileID: 8300000, guid: eb8a51c842d054b4aa054500216f9626, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Final2
+    clip: {fileID: 8300000, guid: 361250c6d52cc694ba972b5aaaa6915d, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Final3
+    clip: {fileID: 8300000, guid: eff96da02f78dd843899fd2b747983de, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    single: 1
+    source: {fileID: 0}
+    mixer: {fileID: 0}
